@@ -1,0 +1,68 @@
+body{
+    margin: auto;
+}
+
+#top{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #dadada;
+    background-color: #fff;
+    z-index: 10000;
+}
+
+#top img{
+    width: 100%;
+    margin: auto;
+}
+h2{
+    position: absolute;
+    color: white;
+    font-family: suecaslabmedium;
+    font-size: 25px;
+    line-height: 0px;
+    top: 140px;
+    left: 17%;
+}
+
+.container {
+    max-width: 1250px;
+    width: 100%;
+    margin: 60px auto 30px;
+}
+.card {
+    height: 500px;
+    background-color: rgb(92, 153, 209);
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+
+.descripcion {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+img {
+    margin-top: -52px;
+    width: 55%;
+}
+.hrfilete{
+    border: 5px solid rgb(49, 97, 160);
+    margin-top: -5px;
+  }
+.texto {
+    width: 70%;
+    color: white;
+    position: relative;
+    top: 0px;
+    left: 15%;
+    font-family: TheSans;
+    text-align: center;
+}
+.texto p {
+    font-family: suecanano;
+    font-size: 13px;
+    line-height: 1.5;
+    padding-top: 10px;
+    margin: auto;
+}
